@@ -1,0 +1,20 @@
+---
+title: "Dataset README"
+author: "RN7"
+date: "March 18, 2017"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Datasets
+
+Datasets are in .sav format which is the primary output of datasets created on SPSS see <https://ibm.com/marketplace/cloud/statistical-analysis-and-reporting/>.
+
+To be able to access these files in the console/script you must use `read.spss()`. 
+
+All datasets are cleaned and tidy.
